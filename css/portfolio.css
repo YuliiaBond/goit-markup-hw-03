@@ -1,17 +1,31 @@
 /* портфолио. Наши проекты */
+.buttons {
+  padding-top: 94px;
+  margin-bottom: 50px;
+}
 .btn {
+  display: inline-block;
+  padding: 6px 22px;
+  min-width: 73px;
+  border-radius: 4px;
+
   color: var(--title-text-color);
-  background-color: var(--primary-bg-color);
+  background-color: var(--btn-color);
   font-weight: 500;
+  font-family: Roboto, sans-serif;
   font-size: 16px;
   line-height: 1.63;
   text-align: center;
+  border: 1px solid transparent;
 }
 .btn:hover {
   color: var(--primary-bg-color);
   background-color: var(--accent-color);
 }
 .title {
+  margin-top: 20px;
+  margin-bottom: 4px;
+
   color: var(--title-text-color);
 
   font-weight: 700;
@@ -20,7 +34,12 @@
   letter-spacing: 0.06em;
 }
 .text {
+  padding-bottom: 20px;
+
   color: var(--primary-text-color);
   font-size: 16px;
   line-height: 1.88;
+}
+section {
+  padding-bottom: 94px;
 }
