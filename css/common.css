@@ -62,10 +62,11 @@ p {
 }
 
 .container {
-  margin: 0 auto;
   width: 1200px;
   padding-right: 15px;
   padding-left: 15px;
+  margin-right: auto;
+  margin-left: auto;
 }
 /*Site nav*/
 .main-nav {
@@ -120,11 +121,23 @@ p {
   color: var(--accent-color);
 }
 /*Footer*/
+.footer .container {
+  display: block;
+  padding-top: 60px;
+  padding-bottom: 60px;
+}
 .footer {
   background-color: var(--bg-color);
 }
 .footer a {
+  margin-right: 0;
   color: var(--primary-bg-color);
+}
+.contacte {
+  margin-top: 20px;
+}
+.contacte .item:not(:last-child) {
+  margin-bottom: 9px;
 }
 .footer span {
   color: var(--accent-color);
