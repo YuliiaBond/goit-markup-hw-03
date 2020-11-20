@@ -3,7 +3,8 @@
   display: flex;
   justify-content: center;
   padding-top: 94px;
-  margin-bottom: 50px;
+  margin-bottom: 56px;
+  border-top: 1px solid #ececec;
 }
 .btn {
   display: inline-block;
@@ -33,10 +34,14 @@
   flex-wrap: wrap;
   margin: -15px;
 }
-.projects .item {
+.projects .card {
   width: 370px;
   margin: 15px;
   /* flex-basis: calc(100% / 3-15px); */
+}
+.card .link {
+  display: block;
+  border: 1px solid var(--porfolio-card-color);
 }
 /* margin-right: 30px; */
 

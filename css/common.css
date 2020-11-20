@@ -15,6 +15,7 @@ html {
   --primary-bg-color: #ffffff;
   --bg-color: #2f303a;
   --btn-color: #f5f4fa;
+  --porfolio-card-color: #eeeeee;
 }
 body {
   color: var(--primary-text-color);
