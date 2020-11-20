@@ -37,11 +37,11 @@
 .projects .card {
   width: 370px;
   margin: 15px;
+  border: 1px solid var(--porfolio-card-color);
   /* flex-basis: calc(100% / 3-15px); */
 }
 .card .link {
   display: block;
-  border: 1px solid var(--porfolio-card-color);
 }
 /* margin-right: 30px; */
 
